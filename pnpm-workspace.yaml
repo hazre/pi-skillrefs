@@ -1,0 +1,8 @@
+allowBuilds:
+  '@google/genai': false
+  protobufjs: false
+  dprint: true
+  esbuild: true
+  koffi: true
+patchedDependencies:
+  '@siddr/pi-shared-qna': patches/@siddr__pi-shared-qna.patch

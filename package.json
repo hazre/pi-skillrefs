@@ -46,6 +46,9 @@
 		"@siddr/pi-shared-qna": "^0.1.2",
 		"typebox": "^1.1.33"
 	},
+	"patchedDependencies": {
+		"@siddr/pi-shared-qna@0.1.3": "patches/@siddr__pi-shared-qna.patch"
+	},
 	"devDependencies": {
 		"@earendil-works/pi-coding-agent": "^0.74.0",
 		"@earendil-works/pi-tui": "^0.74.0",

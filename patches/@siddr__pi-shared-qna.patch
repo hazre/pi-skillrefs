@@ -1,0 +1,23 @@
+diff --git a/qna-tui.ts b/qna-tui.ts
+index 106a9c4ea69461374aa92c75f0d60a96983a6e3a..9c7cabbba483e101472ae39066a97959adb96e8e 100644
+--- a/qna-tui.ts
++++ b/qna-tui.ts
+@@ -6,7 +6,7 @@ const require = createRequire(import.meta.url);
+ 
+ function requirePiTui() {
+ 	try {
+-		return require("@mariozechner/pi-tui");
++		return require("@earendil-works/pi-tui");
+ 	} catch (error) {
+ 		const code = (error as { code?: string }).code;
+ 		if (code !== "MODULE_NOT_FOUND") {
+diff --git a/session-editor-component.ts b/session-editor-component.ts
+index c615c8ee5ee85726a6a578b2f25d647fcdade3b4..784d3f8e2021bb333205dd2aba64d4ac8edf5455 100644
+--- a/session-editor-component.ts
++++ b/session-editor-component.ts
+@@ -1,4 +1,4 @@
+-import type { ExtensionUIContext } from "@mariozechner/pi-coding-agent";
++import type { ExtensionUIContext } from "@earendil-works/pi-coding-agent";
+ 
+ export type SessionEditorComponentFactory = Parameters<ExtensionUIContext["setEditorComponent"]>[0];
+ 
