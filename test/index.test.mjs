@@ -1,4 +1,4 @@
-import { estimateTokens } from "@mariozechner/pi-coding-agent";
+import { estimateTokens } from "@earendil-works/pi-coding-agent";
 import {
 	clearRememberedSessionEditorComponentFactory,
 	composeRememberedSessionEditorComponent,

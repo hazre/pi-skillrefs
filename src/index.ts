@@ -2,13 +2,13 @@ import {
 	CustomEditor,
 	type ExtensionAPI,
 	type KeybindingsManager,
-} from "@mariozechner/pi-coding-agent";
+} from "@earendil-works/pi-coding-agent";
 import type {
 	AutocompleteItem,
 	AutocompleteProvider,
 	EditorTheme,
 	TUI,
-} from "@mariozechner/pi-tui";
+} from "@earendil-works/pi-tui";
 import {
 	composeRememberedSessionEditorComponent,
 	type SessionEditorComponentFactory,
